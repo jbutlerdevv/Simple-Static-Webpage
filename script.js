@@ -1,9 +1,9 @@
 // jquery HOVER event for icons
 $(document).ready(function(){
-    $(".social-icons").hover(function(){
-        $(this).css("font-size", "150%");
+    $(".icons").hover(function(){
+        $(this).css("font-size", "225%");
     }, function(){
-        $(this).css("font-size", "100%");
+        $(this).css("font-size", "200%");
     });
 });
 
@@ -16,7 +16,7 @@ if (this.readyState == 4 && this.status == 200) {
     for(i = 0; i < gitObject.length; i++){
         txt = txt + gitObject[i].name + "<br>"; 
     }
-    document.getElementById("gitRepos").innerHTML = txt;
+    document.getElementById("gitHubRepos").innerHTML = txt;
 }
 };
 

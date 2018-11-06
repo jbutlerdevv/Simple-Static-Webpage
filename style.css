@@ -1,29 +1,69 @@
 body {
-  background-image: url("images/bf1bg.jpg")
+  margin: 0;
+  background-image: url("images/bf1bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-/* .navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-} */
-
-/* .container {
-  margin-top: 150px;
-} */
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
-.fa-envelope {
+.head-title {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar, .page-header{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-color: transparent;
+  box-shadow: 0 0 30px black;
+}
+
+.page-header {
+  margin: 25px 75px 20px 75px;
+}
+
+.panel-title {
+  color: whitesmoke;
+  margin-top: 15px;
+}
+
+.about-me {
+  background:rgba(1, 1, 1, 0.8);
+  border: none;
+  margin-top: 25px;
+  margin-left: 25px;
+  color: white;
+  box-shadow: 0 0 30px black;
+}
+
+.about-text {
+  font-size: 1.2em;
   color: white;
 }
 
-.navbar{
-  /* background: rgba(0, 0, 0, 0.5); */
-  background-color: rgba(0, 0, 0, 0.25);
-  border-color: transparent;
-  box-shadow: 0 0 30px black;
+.skills {
+  position: absolute;
+  background:rgba(255, 255, 255, 0.5);
+  color:rgba(1, 1, 1, 0.75);
+  opacity: 0.75;
+  margin-top: 250px;
+  margin-left: 575px;
+}
+
+.repos {
+  position: relative;
+  background:rgba(255, 255, 255, 0.3);
+  color:rgba(1, 1, 1, 0.75);
+  margin-top: -100px;
+  margin-left: 575px;
+  margin-bottom: 150px;
+}
+
+.text-muted {
+  margin-top: 125px;
+  margin-left: 600px;
+  font-size: 10px;
 }
